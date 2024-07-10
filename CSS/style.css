@@ -64,6 +64,10 @@
     font-weight: 500;
     margin-top: 20px;
 }
+.banner-btn a{
+    text-decoration: none;
+    color: #fff;
+}
 /* banner ends */
 /* choose section code start */
 .web-dev-container{
@@ -213,3 +217,20 @@
     border: none;
 }
 /* support Section code ends */
+/* footer-container code start */
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+.footer-container small{
+    font-size: 18px;
+    font-weight: 600;
+}
+.icon-img-container{
+    display: flex;
+    gap: 20px;
+}
+/* footer-container code ends */
