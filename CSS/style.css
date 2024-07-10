@@ -1,14 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-    font-family: "Azeret Mono", monospace;
-}
-
-/* .azeret-mono {
+.azeret-mono {
   font-family: "Azeret Mono", monospace;
   font-style: normal;
-} */
+}
 /* shear style */
 .btn {
     font-size: 15px;
@@ -45,7 +41,7 @@ body{
     text-align: center;
 }
 .banner-content-text{
-    max-width: 1000px;
+    max-width: 852px;
     margin: 0 auto;
 }
 .banner-content-text h2{
@@ -69,16 +65,25 @@ body{
     margin-top: 20px;
 }
 /* banner ends */
-/* Why Web Development section code start */
+/* choose section code start */
 .web-dev-container{
     margin: 90px 0;
 }
 .web-dev-title{
     text-align: center;
-    max-width: 1000px;
+    max-width: 1076px;
     margin: 0 auto;
 }
-/* choose section code start */
+.web-dev-title h2{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.web-dev-title p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
 .choose-web-dev-conainer{
     margin-top: 40px;
 }
@@ -86,7 +91,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1076px;
     margin: 0 auto;
 }
 .choose-web-dev-text{
@@ -109,3 +114,16 @@ body{
     width: 350px;
 }
 /* choose section code ends */
+/* inspiration section code start */
+.video-container{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-container iframe{
+    width: 1076px;
+    height: 550px;
+    border-radius: 16px;
+}
+/* inspiration section code ends */
